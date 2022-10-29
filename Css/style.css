@@ -1,0 +1,25 @@
+
+/* Header Start */
+.header{
+    font-family: poppins;
+    background-color: white;
+    padding: 20px 0;
+}
+
+.header-img{
+    width: 150px;
+    
+}
+
+.main-header .navbar{
+    background-color: white !important;
+    font-size: 18px;
+    font-weight: 500;
+}
+/* Header End */
+
+/* carrousel First */
+
+.carrousel{
+    background-color: aquamarine;
+}
