@@ -1,34 +1,42 @@
+body {
+    font-family: poppins;
+}
 
 /* Header Start */
-.header{
+.header {
     font-family: poppins;
     background-color: white;
     padding: 20px 0;
 }
 
-.header-img{
+.header-img {
     width: 150px;
-    
+
 }
 
-.main-header .navbar{
+.main-header .navbar {
     background-color: white !important;
     font-size: 18px;
     font-weight: 500;
 }
+
 /* Header End */
 
 /* carrousel First */
 
-.carrousel{
+.carrousel {
     padding: 20px 150px;
     background-color: white;
+    margin: 50px 100px;
+    font-family: poppins;
 }
 
 .carousel-inner {
     padding: 10px 50px;
+    margin-bottom: 60px;
 }
-.carousel-btn{
+
+.carousel-btn {
     text-decoration: none;
     background-color: black;
     color: white;
@@ -36,8 +44,9 @@
     border-radius: 30px;
     overflow: hidden;
     cursor: pointer;
-    
+
 }
+
 .carousel-control-next-icon {
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z'/%3e%3c/svg%3e");
     filter: drop-shadow(2px 4px 6px black);
@@ -58,6 +67,7 @@
     background-color: blueviolet;
     color: white;
 }
+
 .carousel-btn:active {
     color: aqua;
     background-color: blue;
@@ -80,16 +90,14 @@
     border-bottom: 10px solid transparent;
     opacity: .5;
     transition: opacity .6s ease;
-    border-radius: 30px ;
+    border-radius: 30px;
 }
+
 .container.carrousel {
     padding: 10px 60px;
 }
 
-.carousel-info {
-    padding: ;
-    
-}
+.carousel-info {}
 
 
 a.carousel-btn {
@@ -100,6 +108,109 @@ a.carousel-btn {
 button.carousel-control-prev {
     padding-right: 200px;
 }
+
 button.carousel-control-next {
     padding-left: 200px;
+}
+
+/* SmartPhone Product */
+
+.smartphone-card {
+    text-align: center;
+
+
+}
+
+.col-md-4 .card {
+    border: none;
+    box-shadow: 2px 2px 15px rgb(228, 228, 228);
+    border-radius: 10px;
+    height: 600px;
+    padding: 20px 50px;
+    margin-bottom: 50px;
+    font-family: poppins;
+}
+
+.phone-btn {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 30px;
+
+}
+
+.col-md-4 h1 {
+    margin-bottom: 30px;
+}
+
+.button__text {
+    padding-bottom: 5px;
+}
+
+.SmartPhone-title h5 {
+    color: rgb(253, 0, 97);
+    text-align: end;
+
+}
+
+/* Laptop Product */
+.laptop {
+
+
+    text-align: center;
+
+}
+
+/* Categories */
+
+.categories {
+    font-family: poppins;
+    text-align: center;
+    margin-top: 50px;
+    text-decoration: none;
+}
+
+.underline{
+    background-image: linear-gradient(to right, #FF9C35 60%,#FFD019  );
+    height: 5px;
+    width: 80px;
+    position: absolute;
+    margin-left: 40%;
+    border-radius: 30px;
+    
+}
+
+.row.category-products {
+    margin-top: 61px;
+}
+.col-md-6 .bag{
+    box-shadow: 2px 2px 10px #d9d9d9;
+    height: 180px;
+    width: 150px;
+    border-radius: 15px;
+    margin: 83px 30px -113px 24px;
+}
+
+.category-text{
+    text-decoration: none;
+    color: rgb(22, 22, 22);
+    text-align: center;
+}
+.beauty{
+    box-shadow: 2px 2px 10px #d9d9d9;
+    height: 180px;
+    width: 150px;
+    border-radius: 15px;
+    margin-bottom: 30px;
+    text-align: center;
+}
+.shoes{
+    box-shadow: 2px 2px 10px #d9d9d9;
+    height: 180px;
+    width: 150px;
+    border-radius: 15px;
+}
+.all-category{
+    margin-left: 75px;
 }
