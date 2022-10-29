@@ -121,6 +121,8 @@ button.carousel-control-next {
 
 }
 
+
+
 .col-md-4 .card {
     border: none;
     box-shadow: 2px 2px 15px rgb(228, 228, 228);
@@ -162,6 +164,14 @@ button.carousel-control-next {
 
 }
 
+.laptop-title h5{
+    color: rgb(253, 0, 97);
+    text-align: end;
+}
+
+.laptop-title h3{
+    text-align: left;
+    }
 /* Categories */
 
 .categories {
